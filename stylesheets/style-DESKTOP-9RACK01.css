@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+
+    font-family: 'Tilt Warp', cursive;
+
+    margin: 0px;
+
+    box-sizing: border-box
+			
+}
+
+.bodyWrapper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+}
+
+    .headerWrapper{
+
+        display: flex;
+        justify-content: space-between;
+
+        
+    }
+
+        #logoLink{
+            
+            padding: 5px;
+        }
+            #headerLogo{
+                max-height: 75px;
+                
+            }
+
+
+        .navLinks{
+            align-self: center;
+            
+        }
+
+            .headerLink{
+
+                text-decoration: none;
+                
+                padding-left: 20px;
+                padding-right: 20px;
+
+                font-size: 24px;
+                
+            }
+
+            
+
+        .headerBlank{
+            width: 150px;
+            
+            align-self: center;
+            
+                
+        }
+
+        
+
+
+    .mainContentWrapper{
+        display: flex;
+        flex-direction: column;
+
+        margin-inline: auto;
+
+        
+
+        
+        
+
+    }
+
+        .homeContentWrapper{
+            border: 2px solid ;
+            max-width: 600px;
+            margin: 5px;
+
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+            
+
+
+/*-- reviews.html styling*/
+
+
+
+/*-- customise.html*/
+
+.customiseContentWrapper{
+
+    margin-inline:auto;
+}
+    .themeChoice{
+        
+
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        border: 2px solid ;
+    }
+
+    #themeDefault{
+        background-color: #b9abc4;
+        border-color: #282330;
+    }
+
+    #themeOrange{
+        background-color: #d68833;
+        border-color: #1c0906;
+    }
+
+    #themeGreen{
+        background-color: #367a44;
+        border-color: #14262e;
+    }
+
+    
+/**/
+
+/**/
+
+/* styling for reviews*/
+
+.author{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.reviewParagraph{
+    padding-bottom: 20px;
+}

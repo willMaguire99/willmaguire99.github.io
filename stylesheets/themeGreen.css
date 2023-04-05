@@ -1,0 +1,147 @@
+*{
+    
+    background-color: #6bdb82;
+			
+}
+
+p{
+    color: #14262e;
+}
+
+h1{
+    color: #14262e;
+}
+
+h3{
+    color: #14262e;
+}
+
+.bodyWrapper{
+
+    
+}
+
+    .headerWrapper{
+
+        
+
+        background-color: #14262e;
+    }
+
+        #logoLink{
+            background-color: inherit;
+            
+        }
+            #headerLogo{
+                
+                
+            }
+
+
+        .navLinks{
+            
+            background-color: inherit;
+        }
+
+            .headerLink{
+
+                
+                color: #6bdb82;
+                
+                background-color: inherit;
+            }
+
+            .headerLink:hover{
+                color:#10e33b;
+            }
+
+        .headerBlank{
+        
+            background-color: inherit;
+            
+            color: #6bdb82;
+                
+        }
+
+        .visitCounter{
+            background-color: inherit;
+        }
+
+
+    .mainContentWrapper{
+        
+
+        
+
+        
+        
+
+    }
+
+        .homeContentWrapper{
+            border-color: #14262e;;
+            
+            
+        }
+
+            #welcomeContent{
+                
+            }
+
+            .contentHeader{
+                
+            }
+
+
+/*-- reviews.html styling*/
+
+.reviewTitle:hover{
+    color:#10e33b;
+}
+
+/*-- customise.html*/
+
+.customiseContentWrapper{
+
+    
+}
+    .themeChoice{
+        background-color: black;
+
+        
+
+        
+        border-color: white;
+    }
+
+    #themeDefault{
+        background-color: #b9abc4;
+        border-color: #282330;
+    }
+
+    #themeOrange{
+        background-color: #d68833;
+        border-color: #1c0906;
+    }
+
+    #themeGreen{
+        background-color: #6bdb82;
+        border-color: #14262e;
+    }
+
+    #changeThemeTitle{
+        color:#14262e;
+    }
+/**/
+
+/**/
+
+/* styling for reviews*/
+
+.author{
+    
+}
+
+.reviewParagraph{
+    
+}

@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+
+    font-family: 'Tilt Warp', cursive;
+
+    margin: 0px;
+			
+}
+
+.bodyWrapper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+}
+    /* Below is the styling that is being applied to the various 
+        elements in the navigation bar. The elements are laid out
+        using the responsive flexbox display option. This allows 
+        for the even spacing of the components. There are also additonal
+        padding and maximun width stylings to further adjust the
+        positioning of the elements*/
+    .headerWrapper{
+
+        display: flex;
+        justify-content: space-between;
+        min-height: 75px;
+
+        
+    }
+
+        #logoLink{
+            padding: 5px;
+            align-self: center;
+
+        }
+            #headerLogo{
+                max-height: 75px;
+                max-width: 150px;
+                align-self: center;
+            }
+
+
+        .navLinks{
+            align-self: center;
+            
+        }
+
+            .headerLink{
+
+                text-decoration: none;
+                
+                padding-left: 20px;
+                padding-right: 20px;
+
+                font-size: 24px;
+                
+            }
+
+            
+
+        .headerBlank{
+            width: 150px;
+            
+            align-self: center;
+            
+                
+        }
+
+        
+
+
+    .mainContentWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+        .homeContentWrapper{
+            border: 2px solid ;
+            margin-inline: auto;
+            margin: 5px;
+
+            max-width: 600px;
+            align-self: center;
+        }
+
+            #welcomeContent{
+                grid-column-end: span 2;
+
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+            .slideshowContainer{
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+            #slide{
+                max-width: 200px;
+                max-height: 225px;
+
+                align-self: center;
+            }
+
+            .contentHeader{
+                text-align: center;
+            }
+
+
+/*-- reviews.html styling*/
+
+.reviewLink{
+    text-decoration: none;
+
+}
+
+.reviewTitle{
+    font-size: 20px;
+}
+
+/*-- customise.html*/
+
+.customiseContentWrapper{
+
+    margin-inline:auto;
+}
+    .themeChoice{
+        
+
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        border: 2px solid ;
+    }
+
+    #themeDefault{
+        background-color: #b9abc4;
+        border-color: #282330;
+    }
+
+    #themeOrange{
+        background-color: #d68833;
+        border-color: #1c0906;
+    }
+
+    #themeGreen{
+        background-color: #367a44;
+        border-color: #14262e;
+    }
+
+    
+/*Other Media*/
+
+.reviewBodyWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height:100vh;
+}
+
+    .reviewMainContentWrapper{
+        
+        margin-inline: auto;
+    }
+
+        #videoWrapper{
+            display: flex;
+            flex-direction: column;
+            margin-inline: auto;
+            max-width: 600px;
+            
+        }
+
+            .mediaTitle{
+                font-size: 24px;
+                align-self: center;
+            }
+
+            #soundTitle{
+                padding:10px;
+            }
+
+            #eyeMan{
+                margin-inline: auto;
+            }
+
+            #creepySound{
+                margin-inline: auto;
+            }
+
+/**/
+
+/* styling for reviews*/
+
+.author{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.reviewParagraph{
+    padding-bottom: 20px;
+}
